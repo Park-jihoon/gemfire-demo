@@ -6,9 +6,7 @@ import org.springframework.data.gemfire.cache.config.EnableGemfireCaching;
 
 @SpringBootApplication
 public class GemfireDemoApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(GemfireDemoApplication.class, args);
     }
-
 }

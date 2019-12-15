@@ -12,8 +12,6 @@ import kr.co.pohinian.gemfiredemo.entity.Customer;
 import kr.co.pohinian.gemfiredemo.repository.CustomerRepository;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Optional;
-
 @RestController
 @RequestMapping("customer")
 public class CustomerController {
